@@ -1,0 +1,26 @@
+.newCardWrapper-container{
+    margin-top: 50px !important;
+    width: 350px !important;
+    border-radius: 7px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.newCardWrapper-addButton{
+    width: 100px;
+    height: 34px;
+    border-radius: 10px;
+    border: 2px blue solid;
+    font: 15px Roboto;
+    vertical-align: center;
+    color: blue;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+}
+
+.newCardWrapper-addButton:hover{
+    color: white;
+    background-color: blue;
+}

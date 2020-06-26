@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`i18nHeader snapshot 1`] = `
+<div
+  className="i18nHeader-container"
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="row-reverse"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="en"
+    >
+      <div
+        className="i18nHeader-icon-container"
+        data-lang="en"
+      >
+        <img
+          alt="lang"
+          className="i18nHeader-icon"
+          src="united_kingdom_round_icon_64.png"
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="ru"
+    >
+      <div
+        className="i18nHeader-icon-container"
+        data-lang="ru"
+      >
+        <img
+          alt="lang"
+          className="i18nHeader-icon"
+          src="russia_round_icon_64.png"
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="fr"
+    >
+      <div
+        className="i18nHeader-icon-container"
+        data-lang="fr"
+      >
+        <img
+          alt="lang"
+          className="i18nHeader-icon"
+          src="france_round_icon_64.png"
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

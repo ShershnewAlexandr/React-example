@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contactsForm snapshot 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="row"
+    spacing={4}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    >
+      <Field
+        component={[Function]}
+        disabled={false}
+        label="contacts.firstname"
+        name="firstName"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    >
+      <Field
+        component={[Function]}
+        disabled={false}
+        label="contacts.lastname"
+        name="lastName"
+        type="date"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Field
+        component={[Function]}
+        disabled={false}
+        label="contacts.dateOfBirthday"
+        name="dateOfBirthday"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Field
+        component={[Function]}
+        disabled={false}
+        label="contacts.photo"
+        name="photo"
+        onClickAction={[MockFunction]}
+        prerenderPhotoURL={[MockFunction]}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;

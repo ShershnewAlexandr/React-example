@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inputs CheckboxInput snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  alignItems="flex-start"
+  container={true}
+  direction="column"
+  justify="center"
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+  >
+    <label
+      htmlFor="specialId1235"
+    >
+      label
+    </label>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+  >
+    <input
+      disabled={false}
+      id="specialId1235"
+      onChange={[MockFunction]}
+      type="checkbox"
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`inputs DateInput snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <label
+    htmlFor="specialId1236"
+  >
+    label
+  </label>
+  <input
+    className=""
+    disabled={false}
+    id="specialId1236"
+    type="date"
+  />
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`inputs EndDateInput snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  alignItems="center"
+  container={true}
+  direction="row"
+  justify="flex-end"
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={10}
+  >
+    <DateInput
+      checkboxChange={[MockFunction]}
+      checked={false}
+      disabled={false}
+      label="label"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={2}
+  >
+    <CheckboxInput
+      disabled={false}
+      label="education.now"
+      onChange={[MockFunction]}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`inputs NumberInput snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <label
+    htmlFor="specialId1237"
+  >
+    label
+  </label>
+  <input
+    className=""
+    disabled={false}
+    id="specialId1237"
+    max={5}
+    min={0}
+    step={1}
+    type="number"
+  />
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`inputs PhotoInput snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  direction="column"
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+  >
+    <label>
+      label
+    </label>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+  >
+    <div
+      className="photoButton"
+      style={
+        Object {
+          "backgroundImage": "url(url)",
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`inputs TextInput snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  item={true}
+>
+  <label
+    htmlFor="specialId1238"
+  >
+    label
+  </label>
+  <input
+    className=""
+    disabled={false}
+    id="specialId1238"
+    placeholder="placeholder"
+    type="text"
+  />
+</WithStyles(ForwardRef(Grid))>
+`;

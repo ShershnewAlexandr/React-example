@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages InformationPage snapshot 1`] = `
+<div
+  className="container"
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+    justify="flex-start"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={3}
+    >
+      <h1>
+        <Switch>
+          <Route
+            path="/information/contacts"
+            render={[Function]}
+          />
+          <Route
+            path="/information/education"
+            render={[Function]}
+          />
+          <Route
+            path="/information/experience"
+            render={[Function]}
+          />
+          <Route
+            path="/information/languages"
+            render={[Function]}
+          />
+        </Switch>
+      </h1>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        direction="row"
+        spacing={5}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={3}
+        >
+          <div
+            className="black-font"
+          >
+            <span>
+              <Switch>
+                <Route
+                  path="/information/contacts"
+                  render={[Function]}
+                />
+                <Route
+                  path="/information/education"
+                  render={[Function]}
+                />
+                <Route
+                  path="/information/experience"
+                  render={[Function]}
+                />
+                <Route
+                  path="/information/languages"
+                  render={[Function]}
+                />
+              </Switch>
+            </span>
+          </div>
+          <hr />
+          <div
+            className="grey-font"
+          >
+            <span>
+              <Switch>
+                <Route
+                  path="/information/contacts"
+                  render={[Function]}
+                />
+                <Route
+                  path="/information/education"
+                  render={[Function]}
+                />
+                <Route
+                  path="/information/experience"
+                  render={[Function]}
+                />
+                <Route
+                  path="/information/languages"
+                  render={[Function]}
+                />
+              </Switch>
+            </span>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={9}
+        >
+          <Switch>
+            <Route
+              path="/information/contacts"
+              render={[Function]}
+            />
+            <Route
+              path="/information/education"
+              render={[Function]}
+            />
+            <Route
+              path="/information/experience"
+              render={[Function]}
+            />
+            <Route
+              path="/information/languages"
+              render={[Function]}
+            />
+          </Switch>
+          <Connect(HelperProgressBarContainer)>
+            <withRouter(Connect(ProgressBarContainer)) />
+          </Connect(HelperProgressBarContainer)>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`pages InformationPageLoading snapshot 1`] = `<Loader />`;
+
+exports[`pages LoginPage snapshot 1`] = `
+<div
+  className="login-container"
+>
+  <Connect(ReduxForm) />
+</div>
+`;

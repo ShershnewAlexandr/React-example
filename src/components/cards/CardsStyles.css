@@ -1,0 +1,97 @@
+.add-card-container{
+    width: 210px;
+    height: 210px;
+    border: 1px dashed black;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.card-space{
+    width: 200px;
+    height: 200px;
+}
+.card-plus-container{
+    border: 1px dotted black;
+    width: 70px;
+    border-radius: 9px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-plus{
+    font-size: 65px;
+}
+
+.card-plus-container:hover{
+    border: 1px dashed black;
+    cursor: pointer;
+}
+
+.card-container{
+    width: 200px;
+    height: 200px;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card-title-container{
+    width: 208px;
+    height: 45px;
+    font: 30px Roboto;
+    overflow: hidden;
+}
+
+.card-content-container{
+    width: 208px;
+    height: 115px;
+    font: 18px Roboto;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.card-buttons-container{
+    width: 208px;
+    height: 48px;
+}
+
+.card-content-text{
+    display: block;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+.edit-button-container{
+    width: 32px !important;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.edit-button-container:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.like-button-container{
+    width: 60px !important;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid darkred;
+    cursor: pointer;
+}
+
+.like-button-container:hover i{
+    color: darkred;
+}
+
+.liked{
+    color: red;
+}
+
+.liked:hover i{
+    color: darkred !important;
+}
+
+.link{
+    text-decoration: none;
+}

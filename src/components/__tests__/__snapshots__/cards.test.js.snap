@@ -1,0 +1,532 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addCard snapshot 1`] = `
+<div
+  className="add-card-container"
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    className="card-space"
+    container={true}
+    justify="center"
+  >
+    <Link
+      className="link"
+      to="/newcard"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <div
+          className="card-plus-container"
+        >
+          <WithStyles(ForwardRef(Grid))
+            alignItems="center"
+            container={true}
+            justify="center"
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+            >
+              <span
+                className="card-plus"
+              >
+                +
+              </span>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </Link>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`card snapshots 1`] = `
+<div
+  className="card-container"
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="flex-start"
+    container={true}
+    direction="column"
+    justify="space-between"
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      className="card-title-container"
+      item={true}
+    >
+      <span
+        className="card-title-text"
+      >
+        title
+      </span>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      className="card-content-container"
+      item={true}
+    >
+      <span
+        className="card-content-text"
+      >
+        content text
+      </span>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="card-buttons-container"
+      container={true}
+      direction="row"
+      item={true}
+      justify="flex-end"
+    >
+      <WithStyles(ForwardRef(Grid))
+        data-testid="like-card-button"
+        item={true}
+      >
+        <LikeButton
+          id={5}
+          likePostAction={[MockFunction]}
+          liked={false}
+          totalLikes={89}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`card snapshots 2`] = `
+<div
+  className="card-container"
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="flex-start"
+    container={true}
+    direction="column"
+    justify="space-between"
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      className="card-title-container"
+      item={true}
+    >
+      <span
+        className="card-title-text"
+      >
+        title
+      </span>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      className="card-content-container"
+      item={true}
+    >
+      <span
+        className="card-content-text"
+      >
+        content text
+      </span>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="card-buttons-container"
+      container={true}
+      direction="row"
+      item={true}
+      justify="space-between"
+    >
+      <WithStyles(ForwardRef(Grid))
+        data-testid="edit-card-button"
+        item={true}
+      >
+        <EditButton
+          id={5}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        data-testid="like-card-button"
+        item={true}
+      >
+        <LikeButton
+          id={5}
+          likePostAction={[MockFunction]}
+          liked={false}
+          totalLikes={89}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`card snapshots 3`] = `
+<div
+  className="card-container"
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="flex-start"
+    container={true}
+    direction="column"
+    justify="space-between"
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      className="card-title-container"
+      item={true}
+    >
+      <span
+        className="card-title-text"
+      >
+        title
+      </span>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      className="card-content-container"
+      item={true}
+    >
+      <span
+        className="card-content-text"
+      >
+        content text
+      </span>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="card-buttons-container"
+      container={true}
+      direction="row"
+      item={true}
+      justify="flex-end"
+    >
+      <WithStyles(ForwardRef(Grid))
+        data-testid="like-card-button"
+        item={true}
+      >
+        <LikeButton
+          id={5}
+          likePostAction={[MockFunction]}
+          liked={true}
+          totalLikes={89}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`cardForm snapshot 1`] = `undefined`;
+
+exports[`cardListPage snapshots 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="flex-end"
+    container={true}
+    direction="row"
+    item={true}
+    justify="flex-end"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={1}
+    >
+      <Link
+        to="/signin"
+      >
+        <span>
+          cardList.signOut
+        </span>
+      </Link>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="flex-start"
+    className="cardlist-container"
+    container={true}
+    direction="row"
+    item={true}
+    justify="space-evenly"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    justify="center"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Connect(CardPageBarContainer) />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`cardListPage snapshots 2`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="flex-end"
+    container={true}
+    direction="row"
+    item={true}
+    justify="flex-end"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={1}
+    >
+      <Link
+        to="/signin"
+      >
+        <span>
+          cardList.signOut
+        </span>
+      </Link>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="flex-start"
+    className="cardlist-container"
+    container={true}
+    direction="row"
+    item={true}
+    justify="space-evenly"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <AddCard />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    justify="center"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Connect(CardPageBarContainer) />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`editButton snapshot 1`] = `
+<Link
+  onClick={[Function]}
+  to="/editcard/5"
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    className="edit-button-container"
+    container={true}
+    justify="center"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <i
+        className="material-icons md-24"
+      >
+        edit
+      </i>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Link>
+`;
+
+exports[`editCardPage snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  alignItems="center"
+  container={true}
+  justify="center"
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    className="editCardWrapper-container"
+    container={true}
+    direction="column"
+    item={true}
+    justify="space-around"
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <span
+        className="editCardWrapper-title"
+      >
+        editCard.cardInfo
+      </span>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Connect(ReduxForm) />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      item={true}
+      justify="center"
+      spacing={2}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <button
+          className="editCardWrapper-saveButton"
+          onClick={[Function]}
+          type="submit"
+        >
+          editCard.save
+        </button>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <button
+          className="editCardWrapper-deleteButton"
+          onClick={[Function]}
+          type="submit"
+        >
+          editCard.delete
+        </button>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Link
+          to="/cardlist"
+        >
+          <button
+            className="editCardWrapper-CancelButton"
+            type="submit"
+          >
+            editCard.cancel
+          </button>
+        </Link>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`likeButton snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  alignItems="center"
+  className="like-button-container"
+  container={true}
+  data-testid="likeButton"
+  direction="row"
+  justify="space-around"
+  onClick={[Function]}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+  >
+    <span>
+      23
+    </span>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+  >
+    <i
+      className="material-icons md-24"
+      data-testid="like-icon"
+    >
+      thumb_up
+    </i>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`newCardPage snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  alignItems="center"
+  container={true}
+  justify="center"
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    className="newCardWrapper-container"
+    container={true}
+    direction="column"
+    item={true}
+    justify="space-around"
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <span
+        className="newCardWrapper-title"
+      >
+        newCard.newCard
+      </span>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <ReduxForm
+        destroyOnUnmount={true}
+        enableReinitialize={false}
+        forceUnregisterOnUnmount={false}
+        form="addPost"
+        getFormState={[Function]}
+        keepDirtyOnReinitialize={false}
+        onSubmit={[Function]}
+        persistentSubmitErrors={false}
+        pure={true}
+        shouldAsyncValidate={[Function]}
+        shouldError={[Function]}
+        shouldValidate={[Function]}
+        shouldWarn={[Function]}
+        submitAsSideEffect={false}
+        touchOnBlur={true}
+        touchOnChange={false}
+        updateUnregisteredFields={false}
+        validate={[Function]}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      item={true}
+      justify="center"
+      spacing={2}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <button
+          className="newCardWrapper-addButton"
+          onClick={[MockFunction]}
+          type="submit"
+        >
+          newCard.add
+        </button>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Link
+          to="/cardlist"
+        >
+          <button
+            className="editCardWrapper-CancelButton"
+            type="submit"
+          >
+            newCard.cancel
+          </button>
+        </Link>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

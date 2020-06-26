@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`progressBar LoginPage snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  item={true}
+>
+  <div
+    className="icon false"
+  >
+    <i
+      className="material-icons md-24"
+    >
+      icon
+    </i>
+  </div>
+  <div
+    className="step-text"
+  >
+    text
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`progressBar ProgressBar snapshot 1`] = `
+<Fragment>
+  <div
+    className="progress-container"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="row"
+      justify="space-around"
+    >
+      <StepBar
+        icon="face"
+        isActive={true}
+        key="0"
+        text="progressBar.contacts"
+      />
+      <StepBar
+        icon="school"
+        isActive={true}
+        key="1"
+        text="progressBar.education"
+      />
+      <StepBar
+        icon="work"
+        isActive={true}
+        key="2"
+        text="progressBar.experience"
+      />
+      <StepBar
+        icon=""
+        isActive={false}
+        key="3"
+        text=""
+      />
+      <div
+        className="progress-line-back"
+      />
+      <div
+        className="progress-line progress-line-step3"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    direction="row"
+    justify="space-between"
+  >
+    <button
+      className="button"
+      disabled={false}
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        justify="space-between"
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <i
+            className="material-icons back-icon"
+          >
+            arrow_back
+          </i>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <div
+            className="back-but-txt"
+          >
+            progressBar.backStep
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </button>
+    <button
+      className="button button-next"
+      disabled={false}
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        justify="space-around"
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <div
+            className="forward-but-txt"
+          >
+            progressBar.nextStep
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <i
+            className="material-icons forward-icon"
+          >
+            arrow_forward
+          </i>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </button>
+  </WithStyles(ForwardRef(Grid))>
+</Fragment>
+`;
+
+exports[`progressBar ProgressBarLoading snapshot 1`] = `
+<Fragment>
+  <div
+    className="progress-container"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="row"
+      justify="space-around"
+    >
+      <StepBar
+        icon="face"
+        isActive={true}
+        key="0"
+        text="progressBar.contacts"
+      />
+      <StepBar
+        icon="school"
+        isActive={true}
+        key="1"
+        text="progressBar.education"
+      />
+      <StepBar
+        icon="work"
+        isActive={true}
+        key="2"
+        text="progressBar.experience"
+      />
+      <StepBar
+        icon=""
+        isActive={false}
+        key="3"
+        text=""
+      />
+      <div
+        className="progress-line-back"
+      />
+      <div
+        className="progress-line progress-line-step3"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    direction="row"
+    justify="space-between"
+  >
+    <button
+      className="button disabled"
+      disabled={true}
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        justify="space-between"
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <i
+            className="material-icons back-icon"
+          >
+            arrow_back
+          </i>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <div
+            className="back-but-txt"
+          >
+            progressBar.backStep
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </button>
+    <button
+      className="button button-next disabled"
+      disabled={true}
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        justify="space-around"
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <div
+            className="forward-but-txt"
+          >
+            progressBar.nextStep
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <i
+            className="material-icons forward-icon"
+          >
+            arrow_forward
+          </i>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </button>
+  </WithStyles(ForwardRef(Grid))>
+  <Loader />
+</Fragment>
+`;

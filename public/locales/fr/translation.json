@@ -1,0 +1,117 @@
+{
+  "login": {
+    "signIn" : "Se connecter",
+    "username": "Nom d'utilisateur",
+    "password" : "Mot de passe",
+    "rememberMe": "Souviens-toi de moi",
+    "forgotPassword": "mot de passe oublié?",
+    "login": "S'identifier",
+    "vk": "Vkontakte",
+    "telegram": "Telegram",
+    "noAccount": "Pas de compte??"
+  },
+
+  "dropAddList": {
+    "drop": "Fermer",
+    "add": "Ajouter"
+  },
+
+  "progressBar": {
+    "nextStep": "suivante",
+    "backStep": "Retour",
+    "contacts": "Contacts",
+    "education": "Éducation",
+    "experience": "Expérience"
+  },
+
+  "contacts": {
+    "contacts": "Contacts",
+    "addContactInfo": "Ajouter des informations de contact",
+    "provideBasicInfo": "Fournir des informations de base sur vous-même",
+    "firstname": "*Prénom",
+    "lastname": "*Nom de famille",
+    "dateOfBirthday": "*Date d'anniversaire\n",
+    "photo": "Photo"
+  },
+
+  "education": {
+    "education": "Éducation",
+    "addEducationInfo": "Ajouter des informations sur l'éducation",
+    "provideBasicInfo": "Fournir des informations de base sur votre éducation",
+    "schoolname": "Nom de l'école",
+    "startYear": "Année de début",
+    "endYear": "Fin d'année",
+    "now": "Présent"
+  },
+
+  "experience": {
+    "experience": "Expérience",
+    "addExperienceInfo": "Ajouter des informations d'expérience",
+    "provideBasicInfo": "Fournir des informations de base sur votre expérience",
+    "companyName": "Nom de la compagnie",
+    "profile": "Profil",
+    "startYear": "Année de début",
+    "endYear": "Fin d'année",
+    "now": "Présent"
+  },
+
+  "languages": {
+    "languages": "Langages",
+    "addLanguagesInfo": "Ajouter des informations sur les langues",
+    "provideBasicInfo": "Fournir des informations de base sur vos langues"
+  },
+
+  "register": {
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "cancel": "Cancel",
+    "registration" : "Registration Page",
+    "register" : "Register"
+  },
+
+  "loader" : "Chargement",
+  "final": "Merci de votre inscription",
+
+  "cardList": {
+    "signOut": "Sortie"
+  },
+
+  "cardForm": {
+    "title": "Titre",
+    "content": "Contenu"
+  },
+
+  "editCard" : {
+    "cardInfo": "Info carte",
+    "save": "Save",
+    "delete": "Delete",
+    "cancel": "Annuler"
+  },
+
+  "newCard" : {
+    "newCard": "Nouvelle carte",
+    "add": "Ajouter",
+    "cancel": "Annuler"
+  },
+
+  "cardPageBar": {
+    "of": "de"
+  },
+
+  "errors" : {
+    "required": "Champs obligatoires",
+    "notString": "Pas une ficelle",
+    "tooLate": "Date trop tard",
+    "18max": "Max 18 signes",
+    "80max": "Max 80 signes",
+    "tooEarly": "Date trop tôt",
+    "endBeforeStart": "Date de fin avant la date de début",
+    "intersection": "Date d'intersection",
+    "3rdCompany": "Intersection 3 société",
+    "notNumber": "Pas un nombre",
+    "[0,5]Range": "Devrait être dans la plage [0,5]",
+    "incorrectRegisterData": "Adresse Email incorrecte",
+    "incorrectLoginData": "Identifiant ou mot de passe incorrect"
+  }
+}

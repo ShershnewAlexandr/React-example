@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`experienceForm snapshot Form 1`] = `
+<form
+  data-testid="experienceForm"
+  onSubmit={[MockFunction]}
+>
+  <FieldArray
+    component={[Function]}
+    disabled={false}
+    formRender={[Function]}
+    maxElements={10}
+    name="experience"
+  />
+</form>
+`;
+
+exports[`experienceForm snapshot FormElement 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  data-testid="experience-form-block"
+  direction="row"
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Field
+      component={[Function]}
+      disabled={false}
+      name="null.companyName"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Field
+      component={[Function]}
+      disabled={false}
+      name="null.profile"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={6}
+  >
+    <Field
+      component={[Function]}
+      disabled={false}
+      name="null.startYear"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={6}
+  >
+    <Field
+      component={[Function]}
+      disabled={false}
+      name="null.endYear"
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

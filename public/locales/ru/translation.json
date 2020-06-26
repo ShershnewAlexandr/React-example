@@ -1,0 +1,117 @@
+{
+  "login": {
+    "signIn" : "Войти",
+    "username": "Логин",
+    "password" : "Пароль",
+    "rememberMe": "Запомнить меня",
+    "forgotPassword": "Забыли пароль?",
+    "login": "Войти",
+    "vk": "Вконтакте",
+    "telegram": "Телеграм",
+    "noAccount": "Нет аккаунта?"
+  },
+
+  "dropAddList": {
+    "drop": "закрыть",
+    "add": "Добавить"
+  },
+
+  "progressBar": {
+    "nextStep": "Дальше",
+    "backStep": "Назад",
+    "contacts": "Контакты",
+    "education": "Образование",
+    "experience": "Опыт"
+  },
+
+  "contacts": {
+    "contacts": "Контакты",
+    "addContactInfo": "Добавьте контактную информацию",
+    "provideBasicInfo": "Добавьте базовую контактную информацию о вас",
+    "firstname": "*Имя",
+    "lastname": "*Фамилия",
+    "dateOfBirthday": "*Дата рождения",
+    "photo": "Фото"
+  },
+
+  "education": {
+    "education": "Образование",
+    "addEducationInfo": "Добавьте ваше образование",
+    "provideBasicInfo": "Добавьте базовую информацию о вашем образовании",
+    "schoolname": "Название учебного заведения",
+    "startYear": "Год начала",
+    "endYear": "Год окончания",
+    "now": "Сейчас"
+  },
+
+  "experience": {
+    "experience": "Опыт",
+    "addExperienceInfo": "Добавьте ваш опыт",
+    "provideBasicInfo": "Добавьте базовую информацию о вашем опыте",
+    "companyName": "Название компании",
+    "profile": "Должность",
+    "startYear": "Год начала",
+    "endYear": "Год окончания",
+    "now": "Сейчас"
+  },
+
+  "languages": {
+    "languages": "Языки",
+    "addLanguagesInfo": "Добавьте знание языков",
+    "provideBasicInfo": "Добавьте базовую информацию о вашем знании языков"
+  },
+
+  "register": {
+    "email": "Email",
+    "password": "Пароль",
+    "name": "Имя",
+    "cancel": "Отмена",
+    "registration" : "Страница регистрации",
+    "register" : "Дальше"
+  },
+
+  "loader" : "Загрузка",
+  "final": "Спасибо за регистрацию",
+
+  "cardList": {
+    "signOut": "Выйти"
+  },
+
+  "cardForm": {
+    "title": "Заголовок",
+    "content": "Содержание"
+  },
+
+  "editCard" : {
+    "cardInfo": "Редактирование",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "cancel": "Отмена"
+  },
+
+  "newCard" : {
+    "newCard": "Новая Карточка",
+    "add": "Добавить",
+    "cancel": "Отмена"
+  },
+
+  "cardPageBar": {
+    "of": "из"
+  },
+
+  "errors" : {
+    "required": "Обязательное поле",
+    "notString": "Не строка",
+    "tooLate": "Слишком поздняя дата",
+    "18max": "Максимум 18 символов",
+    "80max": "Максимум 80 символов",
+    "tooEarly": "Слишком ранняя дата",
+    "endBeforeStart": "Конечная дата раньше даты начала",
+    "intersection": "Даты пересекаются",
+    "3rdCompany": "Пересекается время в 3 компаниях",
+    "notNumber": "Не число",
+    "[0,5]Range": "Диапазон [0,5]",
+    "incorrectRegisterData": "Некорректный email",
+    "incorrectLoginData": "Некорректный логин или пароль"
+  }
+}

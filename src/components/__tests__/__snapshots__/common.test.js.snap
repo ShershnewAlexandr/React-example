@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common App snapshot 1`] = `
+<div
+  className="App"
+>
+  <Connect(I18nHeaderContainer) />
+  <Switch>
+    <Route
+      component={[Function]}
+      path="/signin"
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(InformationPageContainer)",
+          "type": [Function],
+        }
+      }
+      path="/information"
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(CardListPageContainer)",
+          "type": [Function],
+        }
+      }
+      path="/cardlist"
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(NewCardPageContainer)",
+          "type": [Function],
+        }
+      }
+      path="/newcard"
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(EditCardPageContainer)",
+          "type": [Function],
+        }
+      }
+      path="/editcard/:id"
+    />
+    <Route
+      component={[Function]}
+      path="/register"
+    />
+    <Route
+      path="/"
+      render={[Function]}
+    />
+  </Switch>
+</div>
+`;
+
+exports[`common Loader snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  alignItems="center"
+  container={true}
+  direction="column"
+  item={true}
+  justify="center"
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+  >
+    <img
+      alt="Loader ..."
+      className="loader"
+      src="loader.gif"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+  >
+    <span>
+      loader
+    </span>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

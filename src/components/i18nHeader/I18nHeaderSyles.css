@@ -1,0 +1,20 @@
+.i18nHeader-container{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.i18nHeader-icon{
+    width: 34px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.i18nHeader-icon-container{
+    border-bottom: solid gray 1px;
+    border-color: rgba(130,130,130, 0);
+    transition: border 0.2s linear;
+
+}
+.i18nHeader-icon-container:hover{
+    border-color: rgba(130,130,130, 1);
+}

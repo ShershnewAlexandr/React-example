@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cardPageBar snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={4}
+  >
+    <button
+      className="card-page-bar-button"
+      disabled={false}
+      onClick={[MockFunction]}
+    >
+      <i
+        className="material-icons arrows-page-bar"
+      >
+        arrow_back
+      </i>
+    </button>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={4}
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justify="center"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <span>
+          <span />
+           cardPageBar.of  undefined
+        </span>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={4}
+  >
+    <button
+      className="disabledButton"
+      disabled={true}
+      onClick={[MockFunction]}
+    >
+      <i
+        className="material-icons arrows-page-bar"
+      >
+        arrow_forward
+      </i>
+    </button>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

@@ -1,0 +1,33 @@
+.container {
+    margin: 0 auto;
+    width: 620px;
+}
+
+h1 {
+    font-weight: normal;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    font: 23px Roboto;
+    text-align: left;
+}
+
+hr {
+    width: 30px;
+    margin-left: 0;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    background-color: #aaaaaa;
+}
+
+.grey-font {
+    color: #aaaaaa;
+    font: 15px Roboto;
+    text-align: left;
+}
+
+.black-font {
+    color: black;
+    font: 17px Roboto;
+    text-align: left;
+}

@@ -1,0 +1,123 @@
+.icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    text-align: center;
+    line-height: 28px;
+    color: white;
+    margin: 60px auto 4px auto;
+    transition: background-color 0.4s ease-out;
+}
+
+i {
+    margin-top: 2px;
+}
+
+.step-text {
+    color: black;
+    text-align: center;
+}
+
+.progress-line-back {
+    position: absolute;
+    width: 360px;
+    height: 8px;
+    background-color: #cccccc;
+    top: 71px;
+    left: 54px;
+    z-index: -2;
+}
+
+.progress-line {
+    position: absolute;
+    width: 160px;
+    height: 8px;
+    background-color: blue;
+    top: 71px;
+    left: 54px;
+    z-index: -1;
+    transition: width 0.4s ease-out;
+}
+
+.progress-line-step1 {
+    width: 0px;
+}
+
+.progress-line-step2 {
+    width: 137px;
+}
+
+.progress-line-step3 {
+    width: 260px;
+}
+
+.progress-line-step4 {
+    width: 350px;
+}
+
+.progress-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.active {
+    background-color: blue;
+}
+
+.button {
+    width: 100px;
+    height: 24px;
+    border-radius: 10px;
+    border: 2px blue solid;
+    font: 15px Roboto;
+    vertical-align: center;
+    color: blue;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+}
+
+.button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.back-icon{
+    font-size: 20px;
+    margin-top: -1px;
+}
+
+.back-but-txt{
+    font-size: 17px;
+    margin-top: -6px;
+    margin-right: 11px;
+}
+
+.button-next{
+    width: 120px;
+}
+
+.disabled{
+    background-color: #aaaaaa;
+    color: white;
+    border-color: black;
+}
+
+.disabled:hover{
+    background-color: #aaaaaa;
+    color: white;
+    border-color: black;
+}
+
+.forward-but-txt{
+    font-size: 17px;
+    margin-top: -6px;
+    margin-left: 0;
+}
+
+.forward-icon{
+    font-size: 20px;
+    margin-top: -1px;
+}

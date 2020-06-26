@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`languagesForm snapshot 1`] = `
+<form
+  data-testid="languagesForm"
+  onSubmit={[MockFunction]}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="row"
+    spacing={4}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    >
+      <Field
+        component={[Function]}
+        disabled={false}
+        label="name"
+        max={5}
+        min={0}
+        name="ru"
+        step={1}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    >
+      <Field
+        component={[Function]}
+        disabled={false}
+        label="name"
+        max={5}
+        min={0}
+        name="ru"
+        step={1}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;

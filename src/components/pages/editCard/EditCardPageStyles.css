@@ -1,0 +1,64 @@
+.editCardWrapper-container{
+    margin-top: 50px !important;
+    width: 350px !important;
+    border-radius: 7px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.editCardWrapper-saveButton{
+    width: 100px;
+    height: 34px;
+    border-radius: 10px;
+    border: 2px green solid;
+    font: 15px Roboto;
+    vertical-align: center;
+    color: darkgreen;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+}
+
+.editCardWrapper-saveButton:hover{
+    color: white;
+    background-color: green;
+}
+
+.editCardWrapper-deleteButton{
+    width: 100px;
+    height: 34px;
+    border-radius: 10px;
+    border: 2px red solid;
+    font: 15px Roboto;
+    vertical-align: center;
+    color: darkred;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+}
+
+.editCardWrapper-deleteButton:hover{
+    color: white;
+    background-color: red;
+}
+
+.editCardWrapper-CancelButton{
+    width: 100px;
+    height: 34px;
+    border-radius: 10px;
+    border: 2px blue solid;
+    font: 15px Roboto;
+    vertical-align: center;
+    color: darkblue;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+}
+
+.editCardWrapper-CancelButton:hover{
+    color: white;
+    background-color: blue;
+}

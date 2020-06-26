@@ -1,0 +1,37 @@
+.photoButton {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.photoButtonPlus {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: #aaaaaa;
+    margin: 45px auto;
+    text-align: center;
+    vertical-align: center;
+    font-size: 35px;
+    font-family: Roboto;
+    font-weight: lighter;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.photoButtonPlusWithPhoto{
+    opacity: 0;
+}
+
+.photoButton:hover .photoButtonPlus{
+    opacity: 1;
+    color: blue;
+    transition: color 0.3s ease-in-out;
+}
+
+.photoButton:hover .photoButtonPlusWithPhoto{
+    opacity: 1;
+}

@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`registerForm snapshot 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="row"
+    spacing={4}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Field
+        component={[Function]}
+        label="register.email"
+        name="email"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Field
+        component={[Function]}
+        isPassword={true}
+        label="register.password"
+        name="password"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Field
+        component={[Function]}
+        label="register.name"
+        name="name"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justify="center"
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <button
+          className="editCardWrapper-CancelButton"
+          data-testid="registerButton"
+          type="submit"
+        >
+          register.register
+        </button>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Link
+          to="/signin"
+        >
+          <button
+            className="editCardWrapper-CancelButton"
+            data-testid="cancelButton"
+            type="submit"
+          >
+            register.cancel
+          </button>
+        </Link>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;
+
+exports[`registerPage snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  alignItems="center"
+  container={true}
+  justify="center"
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    className="editCardWrapper-container"
+    container={true}
+    direction="column"
+    item={true}
+    justify="space-around"
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <span
+        className="editCardWrapper-title"
+      >
+        register.registration
+      </span>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <ReduxForm
+        destroyOnUnmount={true}
+        enableReinitialize={false}
+        forceUnregisterOnUnmount={false}
+        form="register"
+        getFormState={[Function]}
+        keepDirtyOnReinitialize={false}
+        onSubmit={[Function]}
+        persistentSubmitErrors={false}
+        pure={true}
+        shouldAsyncValidate={[Function]}
+        shouldError={[Function]}
+        shouldValidate={[Function]}
+        shouldWarn={[Function]}
+        submitAsSideEffect={false}
+        touchOnBlur={true}
+        touchOnChange={false}
+        updateUnregisteredFields={false}
+        validate={[Function]}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

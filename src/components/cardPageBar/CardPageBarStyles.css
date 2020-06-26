@@ -1,0 +1,37 @@
+.card-page-bar-button{
+    width: 100px;
+    height: 34px;
+    border-radius: 10px;
+    border: 2px blue solid;
+    font: 15px Roboto;
+    vertical-align: center;
+    color: blue;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+}
+
+.card-page-bar-button:hover{
+    color: white;
+    background-color: blue;
+}
+
+.arrows-page-bar{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.disabledButton{
+    width: 100px;
+    height: 34px;
+    border-radius: 10px;
+    border: 2px gray solid;
+    font: 15px Roboto;
+    vertical-align: center;
+    color: gray;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+}

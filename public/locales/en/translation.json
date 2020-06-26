@@ -1,0 +1,117 @@
+{
+  "login": {
+    "signIn" : "Sign in",
+    "username": "Username",
+    "password" : "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "login": "Log in",
+    "vk": "Vkontakte",
+    "telegram": "Telegram",
+    "noAccount": "No account?"
+  },
+
+  "dropAddList": {
+    "drop": "drop",
+    "add": "Add"
+  },
+
+  "progressBar": {
+    "nextStep": "Next step",
+    "backStep": "Back",
+    "contacts": "Contacts",
+    "education": "Education",
+    "experience": "Experience"
+  },
+
+  "contacts": {
+    "contacts": "Contacts",
+    "addContactInfo": "Add contact information",
+    "provideBasicInfo": "Provide basic information about yourself",
+    "firstname": "*First name",
+    "lastname": "*Last name",
+    "dateOfBirthday": "*Date of birthday",
+    "photo": "Photo"
+  },
+
+  "education": {
+    "education": "Education",
+    "addEducationInfo": "Add education information",
+    "provideBasicInfo": "Provide basic information about your education",
+    "schoolname": "School name",
+    "startYear": "Start year",
+    "endYear": "End year",
+    "now": "Now"
+  },
+
+  "experience": {
+    "experience": "Experience",
+    "addExperienceInfo": "Add experience information",
+    "provideBasicInfo": "Provide basic information about your experience",
+    "companyName": "Company name",
+    "profile": "Profile",
+    "startYear": "Start year",
+    "endYear": "End year",
+    "now": "Now"
+  },
+
+  "languages": {
+    "languages": "Languages",
+    "addLanguagesInfo": "Add languages information",
+    "provideBasicInfo": "Provide basic information about your languages"
+  },
+
+  "register": {
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "cancel": "Cancel",
+    "registration" : "Registration Page",
+    "register" : "Register"
+  },
+
+  "loader" : "Loading",
+  "final": "Thank you for registering",
+
+  "cardList": {
+    "signOut": "Sign out"
+  },
+
+  "cardForm": {
+    "title": "Title",
+    "content": "Content"
+  },
+
+  "editCard" : {
+    "cardInfo": "Card Info",
+    "save": "Save",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+
+  "newCard" : {
+    "newCard": "New Card",
+    "add": "Add",
+    "cancel": "Cancel"
+  },
+
+  "cardPageBar": {
+    "of": "of"
+  },
+
+  "errors" : {
+    "required": "Required",
+    "notString": "Not a String",
+    "tooLate": "Too late date",
+    "18max": "Max 18 signs",
+    "80max": "Max 80 signs",
+    "tooEarly": "Too early date",
+    "endBeforeStart": "End date before start date",
+    "intersection": "Intersection date",
+    "3rdCompany": "Intersection 3 company",
+    "notNumber": "Not a Number",
+    "[0,5]Range": "Should be in [0,5] range",
+    "incorrectRegisterData": "Incorrect email",
+    "incorrectLoginData": "Incorrect login or password"
+  }
+}

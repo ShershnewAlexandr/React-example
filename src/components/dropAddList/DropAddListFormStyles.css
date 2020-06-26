@@ -1,0 +1,58 @@
+.add-button {
+    margin-top: 20px;
+    width: 100px;
+    height: 24px;
+    border-radius: 30px;
+    border: 2px blue solid;
+    font: 12px Roboto;
+    vertical-align: center;
+    color: blue;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+}
+
+.add-button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.drop-button {
+    margin-top: 20px;
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    border: 2px blue solid;
+    font: 13px Roboto;
+    vertical-align: center;
+    color: blue;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    font-size: 12px;
+    z-index: 10;
+}
+
+.drop-button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.drop-icon{
+    font-size: 15px;
+    margin-right: 6px;
+}
+
+.plus-icon{
+    font-size: 19px !important;
+    margin-top: 0;
+    margin-right: 4px;
+}
+
+.drop-add-list-hr{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    width: 100%;
+}
